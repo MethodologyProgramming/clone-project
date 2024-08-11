@@ -1,24 +1,34 @@
-This foler for server
-huufake changed
+This folder for server
 
 
-issue #1 assign member
+issues #1 assign member
+- Add new branch:
 git checkout -b feature/1-add-cart...
 
 
+- Up branch from local to remote:
 git push --set-upstream origin feature/1-add-cart...
 có commit ko vào issues
 
+- Push into issues:
 git commit -m "#1 - anoystick"
 git push
-vào issues
 
+- Add branch from remote to local:
+git branch origin
+git branch dev
 
-->git checkout dev
+- Get all code from one remote branch:
+git pull origin other-branch
+
+- Get all code remote, branch dev into local:
+git checkout dev
 git pull
 
--> git checkout master
+
+- Get all code from master:
+git checkout master
 git pull
 
-delete
+- Delete branch after done work:
 git branch -d releasss
