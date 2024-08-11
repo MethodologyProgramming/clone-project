@@ -1,4 +1,4 @@
-This folder for server
+# This folder for server
 
 
 issues #1 assign member
@@ -32,3 +32,9 @@ git pull
 
 - Delete branch after done work:
 git branch -d releasss
+
+# run server : in be folder, commands in terminal
+## ./mvnw clean package
+## java -jar target/rest-service-0.0.1-SNAPSHOT.jar
+## [more details](https://spring.io/guides/gs/rest-service#scratch)
+## server will run in (https://localhost:3003)
