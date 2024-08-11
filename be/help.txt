@@ -1,1 +1,24 @@
 This foler for server
+huufake changed
+
+
+issue #1 assign member
+git checkout -b feature/1-add-cart...
+
+
+git push --set-upstream origin feature/1-add-cart...
+có commit ko vào issues
+
+git commit -m "#1 - anoystick"
+git push
+vào issues
+
+
+->git checkout dev
+git pull
+
+-> git checkout master
+git pull
+
+delete
+git branch -d releasss
